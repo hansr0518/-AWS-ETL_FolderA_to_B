@@ -1,2 +1,3 @@
-# [AWS] ETL_FolderA_to_B
-ETL data with cleasing.
+# [AWS] ETL job using Glue 
+Two types of ETL Process
+
