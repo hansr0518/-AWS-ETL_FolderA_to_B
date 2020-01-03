@@ -19,6 +19,9 @@ from awsglue.utils import getResolvedOptions
 from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from awsglue.job import Job
+
+# Install the library for the conversion (using function: DynamicFrame.fromDF)
 from awsglue.dynamicframe import DynamicFrame
+# For the timestamp data cleansing process
 from pyspark.sql.functions import from_unixtime,col
 ```
